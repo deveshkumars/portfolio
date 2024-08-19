@@ -9,6 +9,10 @@ import { cn } from "@/lib/utils";
 
 const Hero = () => {
   return (
+    <div>
+        <head>
+        <script defer src="https://app.tinyanalytics.io/pixel/N2Z5eWeQrhW6Uin9"></script>
+        </head>
     <div className="pb-20 pt-36">
       {/**
        *  UI: Spotlights
@@ -94,6 +98,7 @@ const Hero = () => {
           </a>
         </div>
       </div>
+    </div>
     </div>
   );
 };
