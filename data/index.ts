@@ -7,17 +7,17 @@ export const navItems = [
 export const gridItems = [
   {
     id: 1,
-    title: "I've been coding AIs and robots for many years, and its what I love to do.",
+    title: "I study Computer Science and Applied Math at Brown University",
     description: "",
     className: "lg:col-span-3 md:col-span-6 md:row-span-4 lg:min-h-[60vh]",
     imgClassName: "w-full h-full",
     titleClassName: "justify-end",
-    img: "/b1.svg",
+    img: "/brown.png",
     spareImg: "",
   },
   {
     id: 2,
-    title: "I'm always on the lookout for new technology",
+    title: "Wherever I am, I'm always on the lookout for new technology",
     description: "",
     className: "lg:col-span-2 md:col-span-3 md:row-span-2",
     imgClassName: "",
@@ -28,7 +28,7 @@ export const gridItems = [
   {
     id: 3,
     title: "My tech stack",
-    description: "I constantly try to improve",
+    description: "A few of my favorite technologies",
     className: "lg:col-span-2 md:col-span-3 md:row-span-2",
     imgClassName: "",
     titleClassName: "justify-center",
@@ -37,8 +37,8 @@ export const gridItems = [
   },
   {
     id: 4,
-    title: "Tech enthusiast with a passion for development.",
-    description: "",
+    title: "Tech enthusiast with an interest in entrepreneurship and AI.",
+    description: "About Me",
     className: "lg:col-span-2 md:col-span-3 md:row-span-1",
     imgClassName: "",
     titleClassName: "justify-start",
@@ -48,8 +48,8 @@ export const gridItems = [
 
   {
     id: 5,
-    title: "Always improving my skills and expanding my knowledge",
-    description: "The Inside Scoop",
+    title: "1st place and $5000 at the Emergent AI Venture Competition",
+    description: "Many Awards, like:",
     className: "md:col-span-3 md:row-span-2",
     imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
     titleClassName: "justify-center md:justify-start lg:justify-center",
@@ -58,7 +58,7 @@ export const gridItems = [
   },
   {
     id: 6,
-    title: "Do you want to start a project together?",
+    title: "Want to get in touch?",
     description: "",
     className: "lg:col-span-2 md:col-span-3 md:row-span-1",
     imgClassName: "",
@@ -71,28 +71,62 @@ export const gridItems = [
 export const projects = [
   {
     id: 1,
-    title: "MLWGS GeoGuessr",
-    des: "Led the Maggie Walker Programming Club as President to develop a full stack web application that mimics the real Geogessr game, but with pictures of my high school.",
-    img: "/p1.png",
+    title: "YourCade.io",
+    des: "Engineered a full-stack web app for unique LLM-based games. Architected a serverless backend with AWS Lambda and MongoDB Atlas. Note: We ran out of credits",
+    img: "/yourcade.png",
     iconLists: [],
-    link: "https://deveshkumar.vercel.app",
+    link: "yourcade.io",
   },
   {
     id: 2,
-    title: "AI 4 ALL",
-    des: "Created an AI education web platform for the congressional app challenge.",
-    img: "/p2.png",
+    title: "Brown Motion Picture Movie Website",
+    des: "Improved loading speed and usability for a student organization's movie site",
+    img: "/coding.jpg",
     iconLists: [],
-    link: "https://deveshkumar.vercel.app",
+    link: "https://www.soulsistersthemovie.com",
   },
   {
     id: 3,
-    title: "Taskify",
-    des: "Created a collaborative task management app as part of the Harvard CS50 Final Project.",
-    img: "/p3.png",
+    title: "FRC Robotics Competition",
+    des: "Led team to Division Finalist at FRC World Championships (top 2 of 3000+ teams). Programmed autonomous routines and helped managed a 70+ person team.",
+    img: "/422.png",
     iconLists: [],
-    link: "https://deveshkumar.vercel.app",
+    link: "https://deveshkumar.net",
   },
+
+  {
+    id: 4,
+    title: "Doom AI Project",
+    des: "Trained an autonomous PPO agent to pass 3 VizDoom levels. Built a custom OpenAI Gym wrapper and training system.",
+    img: "/doom.png",
+    iconLists: [],
+    link: "https://deveshkumar.net",
+  },
+  {
+    id: 5,
+    title: "Watchmania",
+    des: "Designed and deployed a full-stack e-commerce marketplace for watches using NextJS, React, and Firebase.",
+    img: "/coding.jpg",
+    iconLists: [],
+    link: "https://deveshkumar.net",
+  },
+  {
+    id: 6,
+    title: "Transformer Based Trading Bot",
+    des: "Built a deep learning model to predict US stock returns using global factor data, achieving a RankICLIR score of 0.5296 and monthly returns of 0.3% (with very little training).",
+    img: "/coding.jpg",
+    iconLists: [],
+    link: "https://deveshkumar.net",
+  },
+  {
+    id: 7,
+    title: "Geoguessr Game",
+    des: "Led a team to develop a GeoGuessr-style web app for a school event with 500+ participants.",
+    img: "/p1.png",
+    iconLists: [],
+    link: "https://deveshkumar.net",
+  },
+
 ];
 
 export const testimonials = [
@@ -164,29 +198,29 @@ export const companies = [
 export const workExperience = [
   {
     id: 1,
-    title: "Research Intern",
-    desc: "Helped develop an ensemble approach to model-based reinforcement learning using PyTorch and Deepmind Control Suite.",
+    title: "Research Intern - ACT Lab",
+    desc: "Engineered a novel curriculum learning strategy for quadcopter control and developed a drone simulation environment (ACT Lab, Brown University).",
     className: "md:col-span-2",
     thumbnail: "/exp1.svg",
   },
   {
     id: 2,
-    title: "Research Intern",
-    desc: "As part of VCU SRO Program, I used LLMs for sentiment analysis and residual neural nets for improved image classification. One of two symposium presenters.",
-    className: "md:col-span-2", // change to md:col-span-2
+    title: "Software Engineering Intern - GoodDrills",
+    desc: "Developed a user-engagement-focused React app prototype and conducted a UX audit, proposing gamified features to boost engagement (GoodDrills App).",
+    className: "md:col-span-2",
     thumbnail: "/exp2.svg",
   },
   {
     id: 3,
-    title: "Research Intern",
-    desc: "Researched residual connections and LLMs as part of the Modern Heuristics Research Group at VCU",
-    className: "md:col-span-2", // change to md:col-span-2
+    title: "Software Engineering Intern/RA - Rust Book",
+    desc: "Enhanced the Rust Book's learning experience by integrating interactive quizzes and new question types, benefiting thousands of readers.",
+    className: "md:col-span-2",
     thumbnail: "/exp3.svg",
   },
   {
     id: 4,
-    title: "Robotics Instructors",
-    desc: "Taught 15 Elementary school students to build a robotic arm designed for middle/high school students.",
+    title: "AI Research Intern - VCU Department of Engineering",
+    desc: "Achieved 25% higher reward on quadruped walk task by implementing and fine-tuning model-based RL algorithms (VCU Department of Engineering).",
     className: "md:col-span-2",
     thumbnail: "/exp4.svg",
   },
@@ -200,7 +234,7 @@ export const socialMedia = [
   },
   {
     id: 2,
-    link: "https://www.linkedin.com/in/devesh-kumar-ai/",
+    link: "https://www.linkedin.com/in/realdeveshkumar/",
     img: "/link.svg",
   },
 ];
