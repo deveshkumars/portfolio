@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="360" viewBox="0 0 600 360" fill="none">
+  <defs>
+    <linearGradient id="tb-bg" x1="0" y1="0" x2="600" y2="360" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0A0E1F"/>
+      <stop offset="1" stop-color="#0E2424"/>
+    </linearGradient>
+    <linearGradient id="tb-line" x1="0" y1="1" x2="1" y2="0">
+      <stop stop-color="#7CF6B5"/>
+      <stop offset="1" stop-color="#CBACF9"/>
+    </linearGradient>
+    <radialGradient id="tb-glow" cx="0.7" cy="0.3" r="0.6">
+      <stop stop-color="#7CF6B5" stop-opacity="0.25"/>
+      <stop offset="1" stop-color="#7CF6B5" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="600" height="360" rx="24" fill="url(#tb-bg)"/>
+  <rect width="600" height="360" rx="24" fill="url(#tb-glow)"/>
+  <g opacity="0.12" stroke="#7CF6B5" stroke-width="1">
+    <path d="M40 120 H560 M40 180 H560 M40 240 H560 M40 300 H560"/>
+  </g>
+  <!-- candlesticks -->
+  <g stroke-linecap="round">
+    <g stroke="#7CF6B5" stroke-width="14"><path d="M90 300 V255"/></g>
+    <g stroke="#7CF6B5" stroke-width="3"><path d="M90 320 V240"/></g>
+    <g stroke="#EF5B8D" stroke-width="14"><path d="M140 250 V290"/></g>
+    <g stroke="#EF5B8D" stroke-width="3"><path d="M140 230 V310"/></g>
+    <g stroke="#7CF6B5" stroke-width="14"><path d="M190 290 V220"/></g>
+    <g stroke="#7CF6B5" stroke-width="3"><path d="M190 305 V205"/></g>
+    <g stroke="#7CF6B5" stroke-width="14"><path d="M240 255 V190"/></g>
+    <g stroke="#7CF6B5" stroke-width="3"><path d="M240 270 V175"/></g>
+    <g stroke="#EF5B8D" stroke-width="14"><path d="M290 200 V230"/></g>
+    <g stroke="#EF5B8D" stroke-width="3"><path d="M290 185 V245"/></g>
+    <g stroke="#7CF6B5" stroke-width="14"><path d="M340 230 V160"/></g>
+    <g stroke="#7CF6B5" stroke-width="3"><path d="M340 245 V145"/></g>
+  </g>
+  <!-- trend line -->
+  <path d="M80 300 L190 250 L300 210 L420 150 L540 110" fill="none" stroke="url(#tb-line)" stroke-width="4" stroke-linecap="round"/>
+  <path d="M540 110 l-26 4 m26 -4 l-6 -26" stroke="url(#tb-line)" stroke-width="4" fill="none" stroke-linecap="round"/>
+  <text x="44" y="92" font-family="Arial, sans-serif" font-size="40" font-weight="800" fill="#FFFFFF">Transformer Trading Bot</text>
+  <text x="46" y="126" font-family="Arial, sans-serif" font-size="18" font-weight="600" fill="#CBACF9">RankICIR 0.5296 · Positive Monthly Return</text>
+</svg>
