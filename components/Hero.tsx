@@ -89,7 +89,7 @@ const Hero = () => {
             Hello there! I&apos;m Devesh, an AI Software Developer at Brown University.
           </p>
 
-          <a href="#about">
+          <a href="https://www.linkedin.com/in/realdeveshkumar/" target="_blank" rel="noreferrer">
             <MagicButton
               title="Show my work"
               icon={<FaLocationArrow />}
