@@ -86,7 +86,7 @@ const Hero = () => {
 
 
           <p className="text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl">
-            Hello there! I&apos;m Devesh, an AI Software Developer at Brown University.
+            Hello there! I&apos;m Devesh, an Applied Math-CS student at Brown University and AI/ML Engineering Intern at Agile Defense.
           </p>
 
           <a href="#about">
